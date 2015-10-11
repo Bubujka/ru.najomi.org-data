@@ -22,5 +22,4 @@ code: |
     INNER JOIN tmp_sort_table AS t_src ON t_upd.id = t_src.id
   SET t_upd.`sort_field` = t_src.`sort`;
   DROP TEMPORARY TABLE IF EXISTS tmp_sort_table;
-author: Mihanentalpo
 
